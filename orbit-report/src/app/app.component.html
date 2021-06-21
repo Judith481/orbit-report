@@ -18,3 +18,9 @@
   </li>
 </ul>
 
+<app-orbit-list [satellites]="display"></app-orbit-list>
+
+<div class= "search-form">
+  <input #searchTerm name="search(searchTerm.value)">
+  <button (click)= "search(searchTerm.value)"></button>
+</div>
